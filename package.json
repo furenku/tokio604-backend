@@ -1,0 +1,13 @@
+{
+  "name": "tokio604-backend",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/furenku/tokio604-backend",
+  "author": "furenku",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@keystonejs/adapter-mongoose": "^5.1.5",
+    "@keystonejs/keystone": "^5.4.3"
+  }
+}
