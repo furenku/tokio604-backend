@@ -1,9 +1,14 @@
-// import necessary modules
 const { Keystone } = require('@keystonejs/keystone');
 const { MongooseAdapter } = require('@keystonejs/adapter-mongoose');
+const { GraphQLApp } = require('@keystonejs/app-graphql');
 
-// create an instance of Keystone app
 const keystone = new Keystone({
-  name: 'New Project',
+  name: 'tokio604',
   adapter: new MongooseAdapter(),
 });
+
+
+module.exports = {
+    keystone,
+    apps: [new GraphQLApp()],
+};

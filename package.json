@@ -8,6 +8,7 @@
   "private": false,
   "dependencies": {
     "@keystonejs/adapter-mongoose": "^5.1.5",
+    "@keystonejs/app-graphql": "^5.0.3",
     "@keystonejs/keystone": "^5.4.3"
   }
 }
